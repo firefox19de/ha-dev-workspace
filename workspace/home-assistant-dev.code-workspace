@@ -17,7 +17,7 @@
     "files.exclude": {
       "**/.git": true,
       "**/__pycache__": true,
-      "**/.pytest_cache__": true
+      "**/.pytest_cache": true
     },
     "python.analysis.extraPaths": [
       "../alphaess-wallbox/custom_components",
