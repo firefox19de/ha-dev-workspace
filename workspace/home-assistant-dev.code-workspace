@@ -2,11 +2,11 @@
   "folders": [
     {
       "name": "alphaess-wallbox",
-      "path": "../alphaess-wallbox"
+      "path": "../../alphaess-wallbox"
     },
     {
       "name": "homeassistant",
-      "path": "../homeassistant"
+      "path": "../../homeassistant"
     },
     {
       "name": "ha-dev-workspace",
@@ -20,12 +20,25 @@
       "**/.pytest_cache": true
     },
     "python.analysis.extraPaths": [
-      "../alphaess-wallbox/custom_components",
-      "../homeassistant/custom_components"
+      "../../alphaess-wallbox/custom_components",
+      "../../homeassistant/custom_components"
     ],
     "search.exclude": {
       "**/.git": true,
       "**/__pycache__": true
+    },
+    "files.associations": {
+      "*.yaml": "home-assistant",
+      "compose.yml": "yaml",
+      "compose.yaml": "yaml",
+      "compose.*.yml": "yaml",
+      "compose.*.yaml": "yaml",
+      "docker-compose.yml": "yaml",
+      "docker-compose.yaml": "yaml",
+      "docker-compose.*.yml": "yaml",
+      "docker-compose.*.yaml": "yaml",
+      "esphome/**/*.yml": "esphome",
+      "esphome/**/*.yaml": "esphome"
     }
   },
   "extensions": {
