@@ -1,0 +1,39 @@
+{
+  "folders": [
+    {
+      "name": "alphaess-wallbox",
+      "path": "../alphaess-wallbox"
+    },
+    {
+      "name": "homeassistant",
+      "path": "../homeassistant"
+    },
+    {
+      "name": "ha-dev-workspace",
+      "path": ".."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/__pycache__": true,
+      "**/.pytest_cache__": true
+    },
+    "python.analysis.extraPaths": [
+      "../alphaess-wallbox/custom_components",
+      "../homeassistant/custom_components"
+    ],
+    "search.exclude": {
+      "**/.git": true,
+      "**/__pycache__": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "keesschollaart.vscode-home-assistant",
+      "eamodio.gitlens",
+      "ms-azuretools.vscode-docker"
+    ]
+  }
+}

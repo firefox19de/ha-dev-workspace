@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "keesschollaart.vscode-home-assistant",
+    "eamodio.gitlens",
+    "ms-azuretools.vscode-docker"
+  ]
+}
