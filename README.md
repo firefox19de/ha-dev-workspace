@@ -35,3 +35,10 @@ Im PowerShell-Terminal:
 Wenn du VS Code mit Dev Containers verwenden möchtest, öffne den Ordner in VS Code und wähle „Reopen in Container“.
 
 Weitere Hinweise findest du in [docs/devcontainer-guide.md](docs/devcontainer-guide.md) und [docs/setup-guide.md](docs/setup-guide.md).
+
+## Quick Start für beide Repos
+
+1. Öffne den Workspace über [workspace/home-assistant-dev.code-workspace](workspace/home-assistant-dev.code-workspace).
+2. VS Code zeigt dann die Ordner alphaess-wallbox und homeassistant als Roots an.
+3. Wenn du mit Containern arbeiten möchtest, öffne den Workspace-Ordner in VS Code und wähle „Reopen in Container“.
+4. Für die eigentliche Entwicklung kannst du dann in den jeweiligen Ordnern arbeiten, ohne die gemeinsame Basis zu verlieren.
