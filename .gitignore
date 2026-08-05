@@ -2,3 +2,12 @@ __pycache__/
 .pytest_cache/
 *.pyc
 .vscode/settings.json
+
+# IntelliJ IDEA (lokale/temporäre Dateien)
+.idea/workspace.xml
+.idea/shelf/
+.idea/httpRequests/
+.idea/dataSources/
+.idea/dataSources.local.xml
+*.iws
+out/
